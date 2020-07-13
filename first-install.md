@@ -1,32 +1,32 @@
-# First install
+# Première installation
 
-## Step 1
+## Étape 1
 
-You should do this first configuration on your test server on your PC to avoid mistakes and too many restarts.. players don't like when server is down ;\) You can upload files to your real server after you finished here.
+Vous devez faire cette première configuration sur votre serveur de test sur votre PC pour éviter les erreurs et les redémarrages trop nombreux... les joueurs n'aiment pas quand le serveur est en panne ;\) Vous pouvez télécharger des fichiers sur votre vrai serveur après avoir terminé ici.
 
 {% hint style="danger" %}
-If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder** folder to **ItemsAdder\_backup**
+Si vous possédez déjà l'ancienne version 1.0 d'ItemsAdder, veuillez renommer le dossier **plugins/ItemsAdder** en **ItemsAdder\_backup**.
 {% endhint %}
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
-* install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
-* stop server
+* Installer [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* Installer [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
+* Installer [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* Mettez le fichier **ItemsAdder.jar** dans votre dossier de plugins
+* Démarrer le serveur
+* Laisser ItemsAdder terminer **tout** le chargement 
+* Arrêter le serveur
 
-## Step 2
+## Étape 2
 
-* join the server and execute the command `/iazip` when the plugin is fully loaded
-* open plugins\ItemsAdder\config.yml
-* follow this tutorial:
+* Rejoindre le serveur et exécuter la commande `/iazip` lorsque le plugin est complètement chargé
+* Ouvrir le fichier plugins\ItemsAdder\config.yml
+* Suivez ce tutoriel :
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
 
 
 
 {% hint style="warning" %}
-Remember to use the command `/iazip` each time you want the plugin to update the file `pack.zip`
+N'oubliez pas d'utiliser la commande `/iazip` chaque fois que vous voulez que le plugin mette à jour le fichier `pack.zip`.
 {% endhint %}
 
